@@ -4,9 +4,3 @@ CREATE TABLE students (
     email VARCHAR(100),
     grade_level INT
 )
-
-
-CREATE TABLE enrollments (
-    student_id INT REFERENCES students(id)
-    class_id INT REFERENCES classes(id)
-)
